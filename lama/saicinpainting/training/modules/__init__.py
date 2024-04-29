@@ -1,7 +1,7 @@
 import logging
 
-from Inpaint_Anything.lama.saicinpainting.training.modules.ffc import FFCResNetGenerator
-from Inpaint_Anything.lama.saicinpainting.training.modules.pix2pixhd import GlobalGenerator, MultiDilatedGlobalGenerator, \
+from saicinpainting.training.modules.ffc import FFCResNetGenerator
+from saicinpainting.training.modules.pix2pixhd import GlobalGenerator, MultiDilatedGlobalGenerator, \
     NLayerDiscriminator, MultidilatedNLayerDiscriminator
 
 def make_generator(config, kind, **kwargs):

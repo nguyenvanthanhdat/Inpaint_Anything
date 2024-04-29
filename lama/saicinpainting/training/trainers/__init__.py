@@ -1,6 +1,6 @@
 import logging
 import torch
-from Inpaint_Anything.lama.saicinpainting.training.trainers.default import DefaultInpaintingTrainingModule # type: ignore
+from saicinpainting.training.trainers.default import DefaultInpaintingTrainingModule # type: ignore
 
 
 def get_training_model_class(kind):

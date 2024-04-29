@@ -12,7 +12,7 @@ import numpy as np
 from skimage.metrics import structural_similarity
 import torch
 
-from Inpaint_Anything.lama.saicinpainting.utils import get_shape
+from saicinpainting.utils import get_shape
 
 
 class PerceptualLoss(torch.nn.Module):
